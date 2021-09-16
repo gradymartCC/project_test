@@ -1,5 +1,6 @@
 package com.grady.topn
 
+import com.grady.topn.bean.UserVisitAction
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 

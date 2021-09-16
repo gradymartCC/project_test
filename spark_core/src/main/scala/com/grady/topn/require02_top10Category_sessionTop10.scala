@@ -1,8 +1,11 @@
 package com.grady.topn
 
+import com.grady.topn.acc.CategoryCountAccumulator
+import com.grady.topn.bean.{CategoryCountInfo, UserVisitAction}
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.rdd.RDD
+
 import scala.collection.{immutable, mutable}
 
 object require02_top10Category_sessionTop10 {
