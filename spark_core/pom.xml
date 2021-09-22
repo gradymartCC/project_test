@@ -21,9 +21,9 @@
     </dependencies>
 
     <build>
-        <finalName>WordCount</finalName>
+        <finalName>provinceTop</finalName>
         <plugins>
-            <plugin>
+ <!--           <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>3.0.0</version>
@@ -41,7 +41,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
 
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
